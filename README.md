@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+A continuación, se presenta el diagrama de flujo y la estructura de
+componentes principal de la aplicación Fragancias Eunoia:
+
+Diagrama de Componentes de Fragancias Eunoia(diagrama-visual.jpeg)
