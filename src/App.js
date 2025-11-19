@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavbarComponent from './components/NavbarComponent';
+import ProductListings from './components/ProductListings';
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <NavbarComponent />
       
       <main className="container my-5">
-        <h1>Fragancias Eunoia - Arrancando con el proyecto</h1>
+
+        <ProductListings />
+        
       </main>
       
       {/* COMPONENTE DE PIE DE PÁGINA (Footer) */}
