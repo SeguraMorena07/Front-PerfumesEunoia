@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavbarComponent from './components/NavbarComponent';
 import ProductListings from './components/ProductListings';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
@@ -11,11 +12,11 @@ function App() {
       <main className="container my-5">
 
         <ProductListings />
-        
+
       </main>
       
-      {/* COMPONENTE DE PIE DE PÁGINA (Footer) */}
-
+      <FooterComponent />
+      
     </div>
   );
 }
