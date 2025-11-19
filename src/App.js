@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* COMPONENTE DE BARRA DE NAVEGACIÓN (Navbar) */}
+      
+      <main className="container my-5">
+        {/* Aquí irán los Listados de Productos y el resto de la lógica */}
+        <h1>Fragancias Eunoia - Arrancando con el proyecto</h1>
+      </main>
+      
+      {/* COMPONENTE DE PIE DE PÁGINA (Footer) */}
+
     </div>
   );
 }
