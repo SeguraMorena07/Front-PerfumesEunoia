@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
+import NavbarComponent from './components/NavbarComponent';
 
 function App() {
   return (
     <div className="App">
-      
-      {/* COMPONENTE DE BARRA DE NAVEGACIÓN (Navbar) */}
+      <NavbarComponent />
       
       <main className="container my-5">
-        {/* Aquí irán los Listados de Productos y el resto de la lógica */}
         <h1>Fragancias Eunoia - Arrancando con el proyecto</h1>
       </main>
       
